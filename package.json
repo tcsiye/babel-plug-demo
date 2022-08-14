@@ -1,0 +1,15 @@
+{
+  "name": "babel-plugin-demo",
+  "version": "1.0.0",
+  "description": "Custom babel plugin example",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel sample/in-put.js -o dist/out-put.js "
+  },
+  "author": "zhanghc",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.13.14",
+    "@babel/core": "^7.13.14"
+  }
+}
